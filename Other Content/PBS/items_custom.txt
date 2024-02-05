@@ -1,3 +1,39 @@
 #-------------------------------
-# Custom Items
+# Custom Items 
 #-------------------------------
+# From Apples
+#-------------------------------
+[SUPERCAPSULE]
+Name = Super Capsule
+NamePlural = Super Capsule
+Pocket = 2
+Price = 10000
+FieldUse = OnPokemon
+Description = A special capsule that allows a Pokémon to choose between all Abilities when it is used.
+#-------------------------------
+[SNOWORB]
+Name = Snow Orb
+NamePlural = Snow Orbs
+Pocket = 1
+Price = 4000
+Flags = Fling_30
+Description = An item to be held by a Pokémon. It is a bizarre orb that inflicts frostbite on the holder in battle.
+#-------------------------------
+[STALECANDY]
+Name = Stale Candy
+NamePlural = Stale Candies
+Pocket = 2
+Price = 50
+FieldUse = OnPokemon
+Flags = Fling_30
+Description = A candy that is packed with weird energy. It decreases the level of a single Pokémon by one.
+#-------------------------------
+[DAZZLINGMINT]
+Name = Dazzling Mint
+NamePlural = Dazzling Mints
+Pocket = 2
+Price = 50000
+SellPrice = 10000
+FieldUse = OnPokemon
+Flags = Fling_10
+Description = When a Pokémon smells this mint, its nature can be changed to whatever it desires.

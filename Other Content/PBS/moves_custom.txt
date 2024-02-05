@@ -1,3 +1,54 @@
 #-------------------------------
 # Custom Moves
 #-------------------------------
+# From Apples
+#-------------------------------
+[HYPERFROST]
+Name = Hyperfrost
+Type = ICE
+Category = Status
+Accuracy = 85
+TotalPP = 15
+Target = NearOther
+FunctionCode = FreezeTargetAlwaysHitsInSleet
+Flags = CanProtect,CanMirrorMove
+Description = The user shoots the opponent with heavy frost that inflicts frostbite.
+#-------------------------------
+[BURNNTURN]
+Name = Burn'N'Turn
+Type = FIRE
+Category = Special
+Power = 60
+Accuracy = 100
+TotalPP = 20
+Target = NearOther
+FunctionCode = SwitchOutUserDamagingMove
+Flags = CanProtect,CanMirrorMove
+Description = After making its attack, the user rushes back to switch places with a party Pokémon in waiting.
+#-------------------------------
+[FLORALSWITCH]
+Name = Floral Switch
+Type = GRASS
+Category = Special
+Power = 60
+Accuracy = 100
+TotalPP = 20
+Target = NearOther
+FunctionCode = SwitchOutUserDamagingMove
+Flags = CanProtect,CanMirrorMove
+Description = After making its attack, the user rushes back to switch places with a party Pokémon in waiting.
+#-------------------------------
+# From Eaglit
+#-------------------------------
+[SPEEDSNATCH]
+Name = Speed Snatch
+Type = ELECTRIC
+Category = Physical
+Power = 80
+Accuracy = 100
+TotalPP = 5
+Target = NearOther
+FunctionCode = UserTargetSwapBaseSpeed
+Flags = CanProtect,CanMirrorMove
+Description = The user steals the target's Speed stat, leaving the target with its former speed.
+#-------------------------------

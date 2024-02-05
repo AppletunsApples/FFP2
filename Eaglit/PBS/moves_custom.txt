@@ -1,18 +1,6 @@
 #-------------------------------
 # Custom Moves
 #-------------------------------
-[SPEEDSNATCH]
-Name = Speed Snatch
-Type = ELECTRIC
-Category = Physical
-Power = 80
-Accuracy = 100
-TotalPP = 5
-Target = NearOther
-FunctionCode = UserTargetSwapBaseSpeed
-Flags = CanProtect,CanMirrorMove
-Description = The user steals the target's Speed stat, leaving the target with its former speed.
-#-------------------------------
 [SPEEDDEMON]
 Name = Speed Demon
 Type = DARK
