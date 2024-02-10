@@ -1,0 +1,93 @@
+#-------------------------------
+# Pure Fakemon
+#-------------------------------
+
+#-------------------------------
+# Convergents
+#-------------------------------
+[GALETT] # Fakeromons
+Name = Galett
+Types = FLYING,NORMAL
+BaseStats = 10,55,30,90,35,45
+GenderRatio = Female50Percent
+GrowthRate = Medium
+BaseExp = 53
+EVs = SPEED,1
+CatchRate = 255
+Happiness = 50
+Abilities = NATURALCURE,TANGLEDFEET
+HiddenAbilities = CLOUDNINE
+Moves = 
+TutorMoves = 
+EggMoves = 
+EggGroups = 
+HatchSteps = 
+Height = 
+Weight = 
+Color = 
+Shape = 
+Habitat = 
+Category = 
+Pokedex = Galett.
+Generation = 50
+Evolutions = GALETRIO,Level,26
+#-------------------
+[GALETRIO] # Fakeromons
+Name = Galetrio 
+Types = FLYING,NORMAL
+BaseStats = 35,100,60,110,50,70
+GenderRatio = Female50Percent
+GrowthRate = Medium
+BaseExp = 53
+EVs = SPEED,1
+CatchRate = 255
+Happiness = 50
+Abilities = NATURALCURE,TANGLEDFEET
+HiddenAbilities = CLOUDNINE
+Moves = 
+TutorMoves = 
+EggMoves = 
+EggGroups = 
+HatchSteps = 
+Height = 
+Weight = 
+Color = 
+Shape = 
+Habitat = 
+Category = 
+Pokedex = 
+Generation = 50
+Evolutions = GALEPTEM,HasMove,DUALWINGBEAT
+#-------------------
+[GALEPTEM] # Fakeromons, originally a Mega
+Name = Galeptem
+Types = FLYING,NORMAL
+BaseStats = 60,115,80,125,50,80
+GenderRatio = Female50Percent
+GrowthRate = Medium
+BaseExp = 53
+EVs = SPEED,2
+CatchRate = 255
+Happiness = 50
+Abilities = NATURALCURE,TANGLEDFEET
+HiddenAbilities = CLOUDNINE
+Moves = 
+TutorMoves = 
+EggMoves = 
+EggGroups = 
+HatchSteps = 
+Height = 
+Weight = 
+Color = 
+Shape = 
+Habitat = 
+Category = 
+Pokedex = Galeptem.
+Generation = 50
+#-------------------------------
+# Custom Crossgen Evolutions
+#-------------------------------
+
+#-------------------------------
+# Other
+#-------------------------------
