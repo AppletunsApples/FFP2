@@ -10,7 +10,7 @@ Category = Status
 Accuracy = 85
 TotalPP = 15
 Target = NearOther
-FunctionCode = FreezeTargetAlwaysHitsInSleet
+FunctionCode = FreezeTargetAlwaysHitsInHail
 Flags = CanProtect,CanMirrorMove
 Description = The user shoots the opponent with heavy frost that inflicts frostbite.
 #-------------------------------

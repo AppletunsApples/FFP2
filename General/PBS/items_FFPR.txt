@@ -37,3 +37,13 @@ SellPrice = 10000
 FieldUse = OnPokemon
 Flags = Fling_10
 Description = When a Pokémon smells this mint, its nature can be changed to whatever it desires.
+#-------------------------------
+[GEODEBALL]
+Name = Geode Ball
+NamePlural = Geode Balls
+Pocket = 2
+Price = 50
+FieldUse = OnPokemon
+Flags = Fling_30
+Description = A Poké Ball for catching Pokémon that evolve using an Evolution Stone.
+#-------------------------------
