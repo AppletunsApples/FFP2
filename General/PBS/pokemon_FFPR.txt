@@ -1,0 +1,176 @@
+#-------------------------------
+# Pure Fakemon
+#-------------------------------
+# FROM Veryrealnoah
+#-------------------------------
+[GOBLEGG]
+Name = Goblegg
+Types = NORMAL,DARK
+BaseStats = 50,100,90,50,130,80
+GenderRatio = Genderless
+GrowthRate = Medium
+BaseExp = 172
+EVs = DEFENSE,2
+CatchRate = 60
+Happiness = 50
+Abilities = SKILLLINK,REGENERATOR
+HiddenAbilities = PRANKSTER
+Moves = 1,EGGBOMB,1,CHARGE,1,TACKLE,1,EERIEIMPULSE,4,THUNDERSHOCK,6,EERIEIMPULSE,9,BULKUP,11,ROLLOUT,13,SCREECH,16,CHARGEBEAM,20,SWIFT,22,FLAIL,26,BARRAGE,29,LIGHTSCREEN,36,REFLECT,41,SIMPLEBEAM,47,EXPLOSION,54,GYROBALL,58,MIRRORCOAT
+TutorMoves = CHARGEBEAM,CONFIDE,DOUBLETEAM,ENDURE,EXPLOSION,FACADE,FLASH,FOULPLAY,FRUSTRATION,GIGAIMPACT,GYROBALL,HEADBUTT,HIDDENPOWER,HYPERBEAM,LIGHTSCREEN,MAGICCOAT,MAGNETRISE,MIMIC,NATURALGIFT,PROTECT,RAINDANCE,REST,RETURN,ROLLOUT,ROUND,SECRETPOWER,SHOCKWAVE,SIGNALBEAM,SLEEPTALK,SNORE,SUBSTITUTE,SUCKERPUNCH,SWAGGER,SWIFT,TAUNT,TELEKINESIS,THIEF,TORMENT,TERABLAST
+EggGroups = Mineral
+HatchSteps = 5120
+Height = 1.2
+Weight = 66.6
+Color = Green
+Shape = Head
+Habitat = Urban
+Category = Prankster Egg
+Pokedex = Watch out when finding eggs in cities. Goblegg are said to disguise as eggs to sneak attack young trainers.
+Generation = 1
+#-------------------------------
+# Convergents
+#-------------------------------
+# FROM Fakeromons
+#-------------------------------
+[GALETT]
+Name = Galett
+Types = FLYING,NORMAL
+BaseStats = 10,55,30,90,35,45
+GenderRatio = Female50Percent
+GrowthRate = Medium
+BaseExp = 53
+EVs = SPEED,1
+CatchRate = 255
+Happiness = 50
+Abilities = NATURALCURE,TANGLEDFEET
+HiddenAbilities = CLOUDNINE
+Moves = 
+TutorMoves = 
+EggMoves = 
+EggGroups = 
+HatchSteps = 
+Height = 
+Weight = 
+Color = 
+Shape = 
+Habitat = 
+Category = 
+Pokedex = Galett.
+Generation = 50
+Evolutions = GALETRIO,Level,26
+#-------------------
+[GALETRIO]
+Name = Galetrio 
+Types = FLYING,NORMAL
+BaseStats = 35,100,60,110,50,70
+GenderRatio = Female50Percent
+GrowthRate = Medium
+BaseExp = 53
+EVs = SPEED,1
+CatchRate = 255
+Happiness = 50
+Abilities = NATURALCURE,TANGLEDFEET
+HiddenAbilities = CLOUDNINE
+Moves = 
+TutorMoves = 
+EggMoves = 
+EggGroups = 
+HatchSteps = 
+Height = 
+Weight = 
+Color = 
+Shape = 
+Habitat = 
+Category = 
+Pokedex = 
+Generation = 50
+Evolutions = GALEPTEM,HasMove,DUALWINGBEAT
+#-------------------
+[GALEPTEM]
+Name = Galeptem
+Types = FLYING,NORMAL
+BaseStats = 60,115,80,125,50,80
+GenderRatio = Female50Percent
+GrowthRate = Medium
+BaseExp = 53
+EVs = SPEED,2
+CatchRate = 255
+Happiness = 50
+Abilities = NATURALCURE,TANGLEDFEET
+HiddenAbilities = CLOUDNINE
+Moves = 
+TutorMoves = 
+EggMoves = 
+EggGroups = 
+HatchSteps = 
+Height = 
+Weight = 
+Color = 
+Shape = 
+Habitat = 
+Category = 
+Pokedex = Galeptem.
+Generation = 50
+#-------------------------------
+# FROM Appletun's Apples
+#-------------------------------
+[DIOMMET]
+Name = Diommet
+Types = DARK,POISON
+BaseStats = 48,50,60,90,47,55
+GenderRatio = Female50Percent
+GrowthRate = Parabolic
+BaseExp = 70
+EVs = SPECIAL_ATTACK,1
+CatchRate = 70
+Happiness = 50
+Abilities = TOXICDEBRIS
+HiddenAbilities = IRONBARBS
+Moves = 1,BITE,1,HARDEN,1,SMACKDOWN,7,ACIDSPRAY,11,SNARL,15,NASTYPLOT,18,LEECHSEED,22,VENOSHOCK,26,GRASSYTERRAIN,29,SELFDESTRUCT,33,KNOCKOFF,37,DARKPULSE,41,ACIDARMOR,46,SLUDGEWAVE
+TutorMoves = ACIDSPRAY,CONFUSERAY,DAZZLINGGLEAM,ENDURE,FACADE,GUNKSHOT,IRONDEFENSE,LIGHTSCREEN,SOLARBEAM,MUDSHOT,DARKPULSE,PROTECT,RAINDANCE,REFLECT,REST,PURSUIT,KNOCKOFF,NIGHTDAZE,GRASSYTERRAIN,SANDTOMB,SLEEPTALK,SLUDGEBOMB,SLUDGEWAVE,SMACKDOWN,SPIKES,LEECHSEED,STONEEDGE,SUBSTITUTE,SUNNYDAY,TOXIC,TOXICSPIKES,VENOSHOCK,TERABLAST
+EggMoves = EXPLOSION,MEMENTO,TOXIC
+EggGroups = Mineral
+HatchSteps = 7680
+Height = 0.7
+Weight = 8.0
+Color = Blue
+Shape = Head
+Habitat = Cave
+Category = Ore
+Pokedex = It absorbs nutrients from cave walls. The petals it wears are made of crystallized poison.
+Generation = 9
+Evolutions = DIOMMORA,Level,35
+CallRateSOS = 9
+#-------------------------------
+[DIOMMORA]
+Name = Diommora
+Types = DARK,POISON
+BaseStats = 83,55,81,130,90,86
+GenderRatio = Female50Percent
+GrowthRate = Parabolic
+BaseExp = 184
+EVs = SPECIAL_ATTACK,2
+CatchRate = 25
+Happiness = 50
+Abilities = TOXICDEBRIS
+HiddenAbilities = IRONBARBS
+Moves = 0,MORTALSPIN,1,SMACKDOWN,1,SPIKYSHIELD,1,BITE,1,HARDEN,1,TOXICSPIKES,7,ACIDSPRAY,11,SNARL,15,NASTYPLOT,18,LEECHSEED,22,VENOSHOCK,26,GRASSYTERRAIN,29,SELFDESTRUCT,33,KNOCKOFF,39,DARKPULSE,44,ACIDARMOR,50,SLUDGEWAVE
+TutorMoves = ACIDSPRAY,CONFUSERAY,DAZZLINGGLEAM,EARTHPOWER,ENDURE,ENERGYBALL,FACADE,FLASHCANNON,GIGAIMPACT,GUNKSHOT,HYPERBEAM,IRONDEFENSE,LIGHTSCREEN,SOLARBEAM,MUDSHOT,DARKPULSE,PROTECT,RAINDANCE,REFLECT,REST,PURSUIT,KNOCKOFF,NIGHTDAZE,GRASSYTERRAIN,SANDTOMB,SLEEPTALK,SLUDGEBOMB,SLUDGEWAVE,SMACKDOWN,SOLARBEAM,SPIKES,LEECHSEED,STONEEDGE,SUBSTITUTE,SUNNYDAY,TOXIC,TOXICSPIKES,VENOSHOCK,TERABLAST
+EggGroups = Mineral
+HatchSteps = 7680
+Height = 1.5
+Weight = 45.0
+Color = Blue
+Shape = Head
+Habitat = Cave
+Category = Ore
+Pokedex = When this Pokémon detects danger, it will open up its crystalline petals and fire beams from its conical body.
+Generation = 9
+CallRateSOS = 6
+#-------------------------------
+# Custom Crossgen Evolutions
+#-------------------------------
+
+#-------------------------------
+# Other
+#-------------------------------

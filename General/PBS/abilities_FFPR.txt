@@ -1,0 +1,29 @@
+#-------------------------------
+# Custom Abilities
+#-------------------------------
+# FROM Eaglit
+#-------------------------------
+[SHARPSTONE]
+Name = Sharp Stone
+Description = Powers up Rock-type moves.
+#-------------------------------
+[REFURBISH]
+Name = Refurbish
+Description = Powers up Steel-type moves.
+#-------------------------------
+[EXTREMECOLD]
+Name = Extreme Cold
+Description = Powers up Ice-type moves.
+#-------------------------------
+[CYBORGIZE]
+Name = Cyborgize
+Description = Normal-type moves become Steel-type and power up.
+#-------------------------------
+[CONTACTFREEZE]
+Name = Contact Freeze
+Description = When hit by a contact move, the user has a chance to inflict frostbite the opponent.
+#-------------------------------
+[CRYSTALIZE]
+Name = Crystalize
+Description = Powers up Ice-type moves when at 1/3 HP or less.
+#-------------------------------
