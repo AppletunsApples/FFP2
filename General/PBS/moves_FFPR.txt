@@ -313,18 +313,6 @@ FunctionCode = HitTenTimes
 Flags = Contact,CanProtect,CanMirrorMove,CannotMetronome,Slicing
 Description = The user summons a meteor shower that hits all foes one to ten times in a row.
 #-------------------------------
-[SALTSPREAD]
-Name = Salt Spread
-Type = ROCK
-Category = Status
-Accuracy = 100
-TotalPP = 15
-Target = NearOther
-FunctionCode = StartSaltCureTarget
-Flags = CanProtect,CanMirrorMove,CannotMetronome
-EffectChance = 100
-Description = The user salt cures the target, inflicting damage every turn. Steel and Water types take more damage.
-#-------------------------------
 [FLYINGFLIP]
 Name = Flying Flip
 Type = FLYING
@@ -433,17 +421,6 @@ Target = NearOther
 FunctionCode = PowerHigherWithUserFasterThanTarget
 Flags = CanProtect,CanMirrorMove,Bomb
 Description = The user forcefully shoots itself at the target. It deals more damage the higher the speed of the user.
-#-------------------------------
-[FROSTBITE]
-Name = Frost Bite
-Type = ICE
-Category = Status
-Accuracy = 85
-TotalPP = 15
-Target = NearOther
-FunctionCode = FreezeTarget
-Flags = CanProtect,CanMirrorMove
-Description = The user bites the target, inflicting frostbite.
 #-------------------------------
 [ICESLAM]
 Name = Ice Slam
