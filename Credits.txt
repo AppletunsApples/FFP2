@@ -1,35 +1,36 @@
-# SPRITES
+# POKEMON
+Chickpeace, Feaspring, Roosum, Peafall, Owwint - Apples, Adell's Brother, Hikoku
+Corsopuntia, Cursopuntia - Apples, Adell's Brother, ayskyubi
+Cosmorph - Taynathon, Adell's Brother
+Cubone (Alolan) - LimaPro, Apples, Eaglit
+Cyndaquil, Quilava, Typhlosion (blue flames) - Eaglit
+Cyndaquil (Hisuian) - Eaglit
+Diommet, Diommora - Apples, Adell's Brother, Eaglit
+Goblegg - KajiAtsui, Eaglit
+Haras, Haraspoke - Adell's Brother, ginnokarasu
+Koffing (Galarian) - LimaPro, Eaglit, Apples
+Phinpy, Donphin - EeVeeEe1999, Adell's Brother
+Pincushog - Conmh, Eaglit, ayskyubi
+Rowlet, Dartrix (Hisuian) - Eaglit
+Spindazee - Apples, Adell's Brother, ayskyubi
+Tuckle - JWNutz, Adell's Brother
+Weedle, Kakuna, Beedrill - KajiAtsui, Eaglit
 
 
-# CONCEPTS
+# ABILITIES
+Contact Freeze (ability )- Eaglit
+Crystalize (ability) - Eaglit
+Cyborgize (ability) - Eaglit
+Extreme Cold (ability) - Eaglit
+Rough Waters (ability) - Vendily, Apples
+Sharp Stone (ability) - Eaglit
 
-# PBS
-- Pokemon
-Conmh (Pincushog)
-Adell's Brother (Haras, Haraspoke, Phinpy, Donphin
-Apples (Alolan Cubone, Galarian Koffing)
-Eaglit (Alolan Cubone, Galarian Koffing, Diommet, Diommora, Goblegg, Alt Weedle, Alt Kakuna, Alt Beedrill)
 
-- Abilities
-Apples (Rough Waters)
-Adell's Brother (Rough Waters)
+# ITEMS
+Dazzling Mint - lucidious89, Apples
+Super Capsule - Apples
 
-- Items
-Apples (Super Capsule, Dazzling Mint)
 
-- Moves
-
-# CODING
-- Abilities
-Eaglit (Sharp Stone, Refurbish, Extreme Cold, Cyborgize, Contact Freeze, Crystallize)
-Vendily (Rough Waters)
-
-- Items
-Apples (Super Capsule)
-lucidous89 (Dazzling Mint)
-
-- Moves
-Eaglit (Power Wash, Speed Demon)
-
-# DESIGNS
-Kajiatsui (Goblegg, Alt Weedle, Alt Kakuna, Alt Beedrill)
+# MOVES
+Power Wash (move) - Eaglit
+Speed Demon (move) -Eaglit
