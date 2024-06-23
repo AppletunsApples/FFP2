@@ -1,15 +1,5 @@
 #===============================================================================
-# Increases the user's Attack by 3 stages.
-#===============================================================================
-class Battle::Move::RaiseUserAttack3 < Battle::Move::StatUpMove
-  def initialize(battle, move)
-    super
-    @statUp = [:ATTACK, 3]
-  end
-end
-
-#===============================================================================
-# Electro Spin
+# Power Wash
 #===============================================================================
 # Removes trapping moves, entry hazards and Leech Seed on user/user's side.
 # Paralyzes the target.
@@ -53,10 +43,10 @@ class Battle::Move::RemoveUserBindingAndEntryHazardsParalyzeTarget < Battle::Mov
 end
 
 #===============================================================================
-# The user's Defense (and its Defense stat stages) are used instead of the
-# user's Attack (and Attack stat stages) to calculate damage. All other effects
-# are applied normally, applying the user's Attack modifiers and not the user's
-# Defense modifiers. (Body Press)
+# Speed Demon
+#===============================================================================
+# The user's Speed (and its Speed stat stages) are used instead of the
+# user's Attack (and Attack stat stages) to calculate damage.
 #===============================================================================
 class Battle::Move::UseUserSpeedInsteadOfUserAttack < Battle::Move
   def pbGetAttackStats(user, target)

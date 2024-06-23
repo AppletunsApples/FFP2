@@ -1,0 +1,5 @@
+﻿Name       = Fakémon Festival Pack: Redux
+Version    = 0.0.1
+Essentials = 21.1
+Website    = https://reliccastle.com/resources/1380/
+Credits    = Eaglit, Adel's Brother, Conmh, Appletun's Apples, LimaPro, KaijiAtsui, Veryrealnoah, EeVeeEe1999, ayskyubi, JWNutz, Vendily, Kajiatsui

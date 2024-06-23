@@ -113,7 +113,7 @@ Pokedex = Phinpy's noses are very sturdy. It can punch a hole in a ship if it hi
 Generation = 0
 Evolutions = DONPHIN,Level,25
 #-------------------------------
-DONPHIN]
+[DONPHIN]
 Name = Donphin
 Types = WATER
 BaseStats = 80,90,105,90,70,65
@@ -194,8 +194,8 @@ Generation = 0
 #-------------------------------
 # FROM shayminhedgehog
 #-------------------------------
-[PINCUPINE]
-Name = Pincupine
+[PINCUSHOG]
+Name = Pincushog
 Types = NORMAL,STEEL
 BaseStats = 48,101,95,91,15,85
 GenderRatio = Female50Percent

@@ -1,7 +1,35 @@
 # SPRITES
 
+
+# CONCEPTS
+
 # PBS
+- Pokemon
+Conmh (Pincushog)
+Adell's Brother (Haras, Haraspoke, Phinpy, Donphin
+Apples (Alolan Cubone, Galarian Koffing)
+Eaglit (Alolan Cubone, Galarian Koffing, Diommet, Diommora, Goblegg, Alt Weedle, Alt Kakuna, Alt Beedrill)
+
+- Abilities
+Apples (Rough Waters)
+Adell's Brother (Rough Waters)
+
+- Items
+Apples (Super Capsule, Dazzling Mint)
+
+- Moves
 
 # CODING
+- Abilities
+Eaglit (Sharp Stone, Refurbish, Extreme Cold, Cyborgize, Contact Freeze, Crystallize)
+Vendily (Rough Waters)
+
+- Items
+Apples (Super Capsule)
+lucidous89 (Dazzling Mint)
+
+- Moves
+Eaglit (Power Wash, Speed Demon)
 
 # DESIGNS
+Kajiatsui (Goblegg, Alt Weedle, Alt Kakuna, Alt Beedrill)
