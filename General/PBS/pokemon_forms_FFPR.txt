@@ -25,7 +25,7 @@ Color = Orange
 Shape = Insectoid
 Pokedex = A Weedle has an extremely acute sense of smell. It distinguishes its favorite kinds of leaves from those it dislikes by sniffing with its big red proboscis (nose).
 Flags = InheritFormWithEverStone
-Generation = 1
+Generation = 0
 Evolutions = KAKUNA,Level,7
 #-------------------------------
 [KAKUNA,2]
@@ -51,7 +51,7 @@ Habitat = Forest
 Category = Cocoon
 Pokedex = It remains virtually immobile while it clings to a tree. However, on the inside, it busily prepares for evolution. This is evident from how hot its shell becomes.
 Flags = InheritFormWithEverStone
-Generation = 1
+Generation = 0
 Evolutions = BEEDRILL,Level,10
 #-------------------------------
 [BEEDRILL,2]
@@ -67,7 +67,7 @@ Height = 1.4
 Weight = 40.5
 Pokedex = Its legs have become poison stingers. It stabs its prey repeatedly with the stingers on its limbs, dealing the final blow with the stinger on its rear.
 Flags = InheritFormWithEverStone
-Generation = 1
+Generation = 0
 #-------------------------------
 # FROM LimaPro
 #-------------------------------
@@ -85,7 +85,7 @@ Color = Purple
 Category = Lonely Spirit
 Pokedex =  Cubone from the Alola regSeeing a likeness of one of its parents in the full moon, it cries. The skull it wears contains the spirit of its family.
 Flags = InheritFormWithEverStone
-Generation = 7
+Generation = 0
 Evolutions = MAROWAK,LevelNight,28
 #-------------------------------
 [KOFFING,1]
@@ -100,6 +100,6 @@ Weight = 1.0
 Color = Gray
 Pokedex = Koffing from the Galar region release particles that eliminate clean air and replace it with a strange mist.
 Flags = InheritFormWithEverStone
-Generation = 7
+Generation = 0
 Evolutions = WEEZING,Level,35
 WildItemUncommon = MISTYSEED

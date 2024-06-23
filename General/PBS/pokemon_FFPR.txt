@@ -26,91 +26,9 @@ Shape = Head
 Habitat = Urban
 Category = Prankster Egg
 Pokedex = Watch out when finding eggs in cities. Goblegg are said to disguise as eggs to sneak attack young trainers.
-Generation = 1
+Generation = 0
 #-------------------------------
 # Convergents
-#-------------------------------
-# FROM Fakeromons
-#-------------------------------
-[GALETT]
-Name = Galett
-Types = FLYING,NORMAL
-BaseStats = 10,55,30,90,35,45
-GenderRatio = Female50Percent
-GrowthRate = Medium
-BaseExp = 53
-EVs = SPEED,1
-CatchRate = 255
-Happiness = 50
-Abilities = NATURALCURE,TANGLEDFEET
-HiddenAbilities = CLOUDNINE
-Moves = 
-TutorMoves = 
-EggMoves = 
-EggGroups = 
-HatchSteps = 
-Height = 
-Weight = 
-Color = 
-Shape = 
-Habitat = 
-Category = 
-Pokedex = Galett.
-Generation = 50
-Evolutions = GALETRIO,Level,26
-#-------------------
-[GALETRIO]
-Name = Galetrio 
-Types = FLYING,NORMAL
-BaseStats = 35,100,60,110,50,70
-GenderRatio = Female50Percent
-GrowthRate = Medium
-BaseExp = 53
-EVs = SPEED,1
-CatchRate = 255
-Happiness = 50
-Abilities = NATURALCURE,TANGLEDFEET
-HiddenAbilities = CLOUDNINE
-Moves = 
-TutorMoves = 
-EggMoves = 
-EggGroups = 
-HatchSteps = 
-Height = 
-Weight = 
-Color = 
-Shape = 
-Habitat = 
-Category = 
-Pokedex = 
-Generation = 50
-Evolutions = GALEPTEM,HasMove,DUALWINGBEAT
-#-------------------
-[GALEPTEM]
-Name = Galeptem
-Types = FLYING,NORMAL
-BaseStats = 60,115,80,125,50,80
-GenderRatio = Female50Percent
-GrowthRate = Medium
-BaseExp = 53
-EVs = SPEED,2
-CatchRate = 255
-Happiness = 50
-Abilities = NATURALCURE,TANGLEDFEET
-HiddenAbilities = CLOUDNINE
-Moves = 
-TutorMoves = 
-EggMoves = 
-EggGroups = 
-HatchSteps = 
-Height = 
-Weight = 
-Color = 
-Shape = 
-Habitat = 
-Category = 
-Pokedex = Galeptem.
-Generation = 50
 #-------------------------------
 # FROM Appletun's Apples
 #-------------------------------
@@ -138,9 +56,8 @@ Shape = Head
 Habitat = Cave
 Category = Ore
 Pokedex = It absorbs nutrients from cave walls. The petals it wears are made of crystallized poison.
-Generation = 9
+Generation = 0
 Evolutions = DIOMMORA,Level,35
-CallRateSOS = 9
 #-------------------------------
 [DIOMMORA]
 Name = Diommora
@@ -165,12 +82,145 @@ Shape = Head
 Habitat = Cave
 Category = Ore
 Pokedex = When this Pokémon detects danger, it will open up its crystalline petals and fire beams from its conical body.
-Generation = 9
-CallRateSOS = 6
+Generation = 0
+#-------------------------------
+# FROM EeVeeEe1999
+#-------------------------------
+[PHINPY]
+Name = Phinpy
+Types = WATER
+BaseStats = 65,60,60,50,55,40
+GenderRatio = Female50Percent
+GrowthRate = Medium
+BaseExp = 66
+EVs = HP,1
+CatchRate = 120
+Happiness = 50
+Abilities = ROUGHWATERS
+HiddenAbilities = BATTLEARMOR
+Moves = 1,SUPERSONIC,1,DEFENSECURL,1,WATERGUN,6,ASTONISH,10,ROLLOUT,14,AQUAJET,17,CHARM,20,RAPIDSPIN,23,WATERPULSE,26,THIEF,29,MIST,32,ACROBATICS,35,AQUATAIL,38,TAKEDOWN,42,AQUARING,45,HYPERVOICE,48,WATERSPOUT
+TutorMoves = CALMMIND,TOXIC,HAIL,BULKUP,HIDDENPOWER,TAUNT,ICEBEAM,HYPERBEAM,LIGHTSCREEN,PROTECT,RAINDANCE,FRUSTRATION,RETURN,DOUBLETEAM,REFLECT,AERIALACE,FACADE,REST,ATTRACT,THIEF,ROUND,ECHOEDVOICE,FOCUSBLAST,SCALD,ACROBATICS,EMBARGO,RETALIATE,GIGAIMPACT,ROCKPOLISH,FLASH,SWORDSDANCE,BULLDOZE,FROSTBREATH,DRAGONTAIL,SWAGGER,SLEEPTALK,SUBSTITUTE,SNARL,NATUREPOWER,CONFIDE,CUT,SURF,STRENGTH,WATERFALL,SLAM,WATERSPORT,HEADBUTT,ZENHEADBUTT,BULLDOZE,IRONHEAD,REST,HELPINGHAND,SCALD,BRINE,ICEBEAM,DIVE,WHIRLPOOL,TICKLE,HEADSMASH,HYDROPUMP
+EggMoves = BOOMBURST,BOUNCE,TICKLE,PLAYROUGH,ICESHARD
+EggGroups = Field,Water2
+HatchSteps = 5120
+Height = 0.5
+Weight = 33.5
+Color = Blue
+Shape = Finned
+Habitat = Sea
+Category = Bottle Nose
+Pokedex = Phinpy's noses are very sturdy. It can punch a hole in a ship if it hits it wile swimming at top speed.
+Generation = 0
+Evolutions = DONPHIN,Level,25
+#-------------------------------
+DONPHIN]
+Name = Donphin
+Types = WATER
+BaseStats = 80,90,105,90,70,65
+GenderRatio = Female50Percent
+GrowthRate = Medium
+BaseExp = 175
+EVs = ATTACK,1,DEFENSE,1
+CatchRate = 60
+Happiness = 50
+Abilities = ROUGHWATERS
+HiddenAbilities = BATTLEARMOR
+Moves = 1,SUPERSONIC,1,DEFENSECURL,1,WATERGUN,6,ASTONISH,10,ROLLOUT,14,AQUAJET,17,CHARM,20,RAPIDSPIN,23,WATERPULSE,27,THIEF,31,MIST,35,ACROBATICS,39,AQUATAIL,43,TAKEDOWN,47,AQUARING,51,HYPERVOICE,55,WATERSPOUT
+TutorMoves = CALMMIND,TOXIC,HAIL,BULKUP,HIDDENPOWER,TAUNT,ICEBEAM,HYPERBEAM,LIGHTSCREEN,PROTECT,RAINDANCE,FRUSTRATION,RETURN,DOUBLETEAM,REFLECT,AERIALACE,FACADE,REST,ATTRACT,THIEF,ROUND,ECHOEDVOICE,FOCUSBLAST,SCALD,ACROBATICS,EMBARGO,RETALIATE,GIGAIMPACT,ROCKPOLISH,FLASH,SWORDSDANCE,BULLDOZE,FROSTBREATH,DRAGONTAIL,SWAGGER,SLEEPTALK,SUBSTITUTE,SNARL,NATUREPOWER,CONFIDE,CUT,SURF,STRENGTH,WATERFALL,SLAM,WATERSPORT,HEADBUTT,ZENHEADBUTT,BULLDOZE,IRONHEAD,REST,HELPINGHAND,SCALD,BRINE,ICEBEAM,DIVE,WHIRLPOOL,TICKLE,HEADSMASH,HYDROPUMP
+EggGroups = Field,Water2
+HatchSteps = 5120
+Height = 1.1
+Weight = 66.0
+Color = Gray
+Shape = Finned
+Habitat = Sea
+Category = Pontoon
+Pokedex = Donphin roll so fast they propell themselfs on top of the water. They will launch themselves off waves to travel more than 400 meters in the air.
+Generation = 0
+#-------------------------------
+# FROM ginnokarasu
+#-------------------------------
+[HARAS]
+Name = Haras
+Types = ELECTRIC,DARK
+BaseStats = 60,55,40,25,60,45
+GenderRatio = Female50Percent
+GrowthRate = Medium
+BaseExp = 57
+EVs = ATTACK,1
+CatchRate = 190
+Happiness = 50
+Abilities = STATIC,MERCILESS
+HiddenAbilities = DAMP
+Moves = 1,SCRATCH,1,LEER,5,THUNDERSHOCK,9,POISONSTING,12,WATERGUN,16,PAYBACK,20,TORMENT,20,TAUNT,24,BUBBLEBEAM,28,FELLSTINGER,32,SPARK,36,HONECLAWS,40,SLASH,44,NIGHTSLASH,48,CHARGE,52,ZINGZAP
+TutorMoves = HONECLAWS,DRAGONCLAW,CALMMIND,TOXIC,BULKUP,HIDDENPOWER,TAUNT,HYPERBEAM,LIGHTSCREEN,PROTECT,SAFEGUARD,FRUSTRATION,SMACKDOWN,THUNDERBOLT,THUNDER,RETURN,SHADOWBALL,DOUBLETEAM,REFLECT,SLUDGEWAVE,TORMENT,FACADE,REST,ATTRACT,THIEF,LOWSWEEP,ROUND,FOCUSBLAST,ENERGYBALL,FALSESWIPE,SCALD,FLING,EMBARGO,SHADOWCLAW,PAYBACK,RETALIATE,GIGAIMPACT,FLASH,VOLTSWITCH,THUNDERWAVE,STRUGGLEBUG,PSYCHUP,XSCISSOR,POISONJAB,SWAGGER,SLEEPTALK,SUBSTITUTE,WILDCHARGE,ROCKSMASH,SNARL,NATUREPOWER,DARKPULSE,CONFIDE,CUT,SURF,STRENGTH,SUCKERPUNCH,POISONJAB,SHADOWCLAW,XSCISSOR,THUNDERBOLT,WHIRLPOOL,CLAMP,DIG,NUZZLE,EXTRASENSORY
+EggMoves = METALCLAW,BUGBITE,COUNTER,MEMENTO
+EggGroups = Water1,Water3
+HatchSteps = 5120
+Height = 0.3
+Weight = 5.4
+Color = Purple
+Shape = Insectoid
+Habitat = Sea
+Category = Sea Enemy
+Pokedex = Haras bury heir body in the sand. When their anemonies sense another Pokemon, they jump out and steal their food.
+Generation = 0
+Evolutions = HARASpoke,Level,24
+#-------------------------------
+[HARASPOKE]
+Name = Haraspoke
+Types = ELECTRIC,DARK
+BaseStats = 115,70,60,30,70,60
+GenderRatio = Female50Percent
+GrowthRate = Medium
+BaseExp = 142
+EVs = ATTACK,2,DEFENSE,1
+CatchRate = 75
+Happiness = 50
+Abilities = STATIC,MERCILESS
+HiddenAbilities = DAMP
+Moves = 1,SCRATCH,1,LEER,5,THUNDERSHOCK,9,POISONSTING,12,WATERGUN,16,PAYBACK,20,TORMENT,20,TAUNT,24,BUBBLEBEAM,29,FELLSTINGER,34,SPARK,39,HONECLAWS,44,SLASH,49,NIGHTSLASH,54,CHARGE,58,ZINGZAP
+TutorMoves = HONECLAWS,DRAGONCLAW,CALMMIND,TOXIC,BULKUP,HIDDENPOWER,TAUNT,HYPERBEAM,LIGHTSCREEN,PROTECT,SAFEGUARD,FRUSTRATION,SMACKDOWN,THUNDERBOLT,THUNDER,RETURN,SHADOWBALL,DOUBLETEAM,REFLECT,SLUDGEWAVE,TORMENT,FACADE,REST,ATTRACT,THIEF,LOWSWEEP,ROUND,FOCUSBLAST,ENERGYBALL,FALSESWIPE,SCALD,FLING,EMBARGO,SHADOWCLAW,PAYBACK,RETALIATE,GIGAIMPACT,FLASH,VOLTSWITCH,THUNDERWAVE,STRUGGLEBUG,PSYCHUP,XSCISSOR,POISONJAB,SWAGGER,SLEEPTALK,SUBSTITUTE,WILDCHARGE,ROCKSMASH,SNARL,NATUREPOWER,DARKPULSE,CONFIDE,CUT,SURF,STRENGTH,SUCKERPUNCH,POISONJAB,SHADOWCLAW,XSCISSOR,THUNDERBOLT,WHIRLPOOL,CLAMP,DIG,NUZZLE,EXTRASENSORY
+EggGroups = Water1,Water3
+HatchSteps = 5120
+Height = 1.0
+Weight = 29.5
+Color = Pink
+Shape = Insectoid
+Habitat = Sea
+Category = Sea Enemy
+Pokedex = If another Pokemon intrudes on a reef claimed by a Haraspoke, it will bully the other Pokemon until it leaves.
+Generation = 0
+#-------------------------------
+# FROM shayminhedgehog
+#-------------------------------
+[PINCUPINE]
+Name = Pincupine
+Types = NORMAL,STEEL
+BaseStats = 48,101,95,91,15,85
+GenderRatio = Female50Percent
+GrowthRate = Medium
+BaseExp = 152
+EVs = ATTACK,2
+CatchRate = 75
+Happiness = 50
+Abilities = IRONBARBS
+HiddenAbilities = SKILLLINK
+Moves = 1,PECK,1,RAPIDSPIN,5,MUDSLAP,10,DEFENSECURL,15,BULLETSEED,20,ROLLOUT,25,METALCLAW,30,REST,35,CURSE,40,SPIKES,45,POISONJAB,50,IRONHEAD,55,ACCUPRESSURE,60,DOUBLEEDGE
+TutorMoves = ASSURANCE,ATTRACT,BODYSLAM,CAPTIVATE,CONFIDE,DIG,DOUBLETEAM,DRILLRUN,ENDURE,FACADE,FRUSTRATION,GIGAIMPACT,GYROBALL,HIDDENPOWER,HYPERBEAM,IRONTAIL,LIQUIDATION,MIMIC,NATURALGIFT,PAYBACK,PINMISSILE,PLAYROUGH,POISONJAB,PROTECT,RAINDANCE,REST,RETURN,REVERSAL,ROUND,SECRETPOWER,SEEDBOMB,SELFDESTRUCT,SLEEPTALK,SNORE,SPIKES,SUBSTITUTE,SWAGGER,THIEF,THROATCHOP,TOXIC,TOXICSPIKES,WILDCHARGE
+EggMoves = MEMENTO,SUCKERPUNCH
+EggGroups = Field,Amorphous
+HatchSteps = 5120
+Height = 0.3
+Weight = 1.0
+Color = Gray
+Shape = Multiped
+Category = Hedgehog
+Pokedex = [A spiky boi.]
+Generation = 0
 #-------------------------------
 # Custom Crossgen Evolutions
 #-------------------------------
-
 #-------------------------------
 # Other
 #-------------------------------

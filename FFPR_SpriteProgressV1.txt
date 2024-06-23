@@ -1,5 +1,4 @@
 Alt Beedrill (Back, Front
-Alt Breloom (Back, Back S, Front, Front S, Icon
 Chickpeace (Back, Back S, Front, Front S
 Corsopuntia (Back, Back S, Front, Front S, Icon
 Cosmorph (Back, Back S, Front, Front S
@@ -17,7 +16,6 @@ Haras (Back, Back S, Front, Front S, Icon
 Haraspoke (Back, Back S, Front, Front S, Icon
 Alt Kakuna (Back, Front
 Galarian Koffing (Back, Front, Icon
-Alt Ninetales (Back, Back S, Front, Front S, Icon
 Owwint (Back, Back S, Front Front S
 Peafall (Back, Back S, Front, Front S
 Phinpy (Back, Back S, Cries, Front, Front S, Icon
@@ -28,7 +26,6 @@ Hisuian Rowlet (Back
 Spundump (Back, Back S, Front, Front S, Icon
 Tuckle (Back, Back S, Front, Front S, Icon
 Alt Typhlosion (Back, Characters, Front, Icon
-Alt Vulpix (Back, Back S, Front, Front S, Icon
 Alt Weedle (Back, Front
 
 LIST - Back, Back Shiny, Characters (Overworlds), Cries, Eggs, Front, Front shiny, Icon, Icon S
