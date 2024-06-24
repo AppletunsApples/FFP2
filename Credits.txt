@@ -10,27 +10,24 @@ Goblegg - KajiAtsui, Eaglit
 Haras, Haraspoke - Adell's Brother, ginnokarasu
 Koffing (Galarian) - LimaPro, Eaglit, Apples
 Phinpy, Donphin - EeVeeEe1999, Adell's Brother
-Pincushog - Conmh, Eaglit, ayskyubi
+Pincushog - Apples, Conmh, Eaglit, ayskyubi
 Rowlet, Dartrix (Hisuian) - Eaglit
 Spindazee - Apples, Adell's Brother, ayskyubi
 Tuckle - JWNutz, Adell's Brother
-Weedle, Kakuna, Beedrill - KajiAtsui, Eaglit
-
+Weedle, Kakuna, Beedrill - KajiAtsui, Eaglit, VeryRealNoah
 
 # ABILITIES
-Contact Freeze (ability )- Eaglit
-Crystalize (ability) - Eaglit
-Cyborgize (ability) - Eaglit
-Extreme Cold (ability) - Eaglit
-Rough Waters (ability) - Vendily, Apples
-Sharp Stone (ability) - Eaglit
-
+Contact Freeze - Eaglit
+Crystalize - Eaglit
+Cyborgize - Eaglit
+Extreme Cold - Eaglit
+Rough Waters - Vendily, Apples
+Sharp Stone - Eaglit
 
 # ITEMS
 Dazzling Mint - lucidious89, Apples
 Super Capsule - Apples
 
-
 # MOVES
 Power Wash (move) - Eaglit
-Speed Demon (move) -Eaglit
+Speed Demon (move) - Eaglit
