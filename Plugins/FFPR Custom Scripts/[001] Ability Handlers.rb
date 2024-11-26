@@ -48,10 +48,8 @@ Battle::AbilityEffects::OnBeingHit.add(:UNFEATHERED,
             !target.pbCanRaiseStatStage?(:SPEED, target)
     battle.pbShowAbilitySplash(target)
     target.pbLowerStatStageByAbility(:SPEED, 2, target, false)
-    target.pbRaiseStatStageByAbility(:ATTACK,
-       (Settings::MECHANICS_GENERATION >= 7) ? 1, target, false)
-    target.pbRaiseStatStageByAbility(:SPECIAL_ATTACK,
-       (Settings::MECHANICS_GENERATION >= 7) ? 1, target, false) 
+    target.pbRaiseStatStageByAbility(:ATTACK, 1, target, false)
+    target.pbRaiseStatStageByAbility(:SPECIAL_ATTACK, 1, target, false) 
     battle.pbHideAbilitySplash(target)
   }
 )
