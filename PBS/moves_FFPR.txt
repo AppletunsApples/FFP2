@@ -206,18 +206,6 @@ FunctionCode = PowerHigherWithUserHP
 Flags = CanProtect,CanMirrorMove
 Description = The user takes its stamina and uses it to damage the foe. The lower the user's HP, the less powerful it becomes.
 #-------------------------------
-[SOAKINGBRANCHPOKE]
-Name = Soaking Branch Poke
-Type = GRASS
-Category = Physical
-Power = 60
-Accuracy = 100
-TotalPP = 10
-Target = NearOther
-FunctionCode = SetTargetTypesToWater
-Flags = CanProtect,CanMirrorMove
-Description = The user shoots a torrent of water at the target and changes the target's type to Water.
-#-------------------------------
 [POWERWASH]
 Name = Power Wash
 Type = WATER
