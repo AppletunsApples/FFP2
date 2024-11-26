@@ -10,7 +10,7 @@ Goblegg - KajiAtsui, Eaglit
 Haras, Haraspoke - Adell's Brother, ginnokarasu
 Koffing (Galarian) - LimaPro, Eaglit, Apples
 Phinpy, Donphin - EeVeeEe1999, Adell's Brother
-Pincushog - Apples, Conmh, Eaglit, ayskyubi
+Pincushin - Apples, Conmh, Eaglit, ayskyubi, ValiantGamer
 Rowlet, Dartrix (Hisuian) - Eaglit
 Spindazee - Apples, Adell's Brother, ayskyubi
 Tuckle - JWNutz, Adell's Brother
@@ -23,10 +23,6 @@ Cyborgize - Eaglit
 Extreme Cold - Eaglit
 Rough Waters - Vendily, Apples
 Sharp Stone - Eaglit
-
-# ITEMS
-Dazzling Mint - lucidious89, Apples
-Super Capsule - Apples
 
 # MOVES
 Power Wash (move) - Eaglit

@@ -34,7 +34,7 @@ Generation = 0
 #-------------------------------
 [DIOMMET]
 Name = Diommet
-Types = DARK,GRASS
+Types = DARK,POISON
 BaseStats = 48,50,60,55,90,47
 GenderRatio = Female50Percent
 GrowthRate = Parabolic
@@ -61,7 +61,7 @@ Evolutions = DIOMMORA,Level,35
 #-------------------------------
 [DIOMMORA]
 Name = Diommora
-Types = DARK,GRASS
+Types = DARK,POISON
 BaseStats = 83,55,81,86,130,90
 GenderRatio = Female50Percent
 GrowthRate = Parabolic
@@ -106,7 +106,7 @@ Weight = 1.0
 Color = Gray
 Shape = Multiped
 Category = Hedgehog
-Pokedex = Hidden beneath leaf piles in quiet forests, cries of distress can be heard far and wide by anyone who stands upon it. It's quills are prized as knitting needles for their durability
+Pokedex = Hidden beneath leaf piles in quiet forests, cries of distress can be heard far and wide by anyone who stands upon it. It's quills are prized as knitting needles for their durability.
 Generation = 0
 #-------------------------------
 [SEEDYU]
