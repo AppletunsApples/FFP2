@@ -134,6 +134,7 @@ Habitat = Grassland
 Category = Single Bloom
 Pokedex = Seedyu's appearance is often considered a bad omen among the superstitious that an area is about to become infested with hostile Pokémon.
 WildItemUncommon = MIRACLESEED
+Generation = 0
 Evolution = SEEDMIE,Item,LEAFSTONE
 #-------------------------------
 [SEEDMIE]
@@ -161,6 +162,7 @@ Category = Multi-Bloom
 Pokedex = Seedmie's flowers cause certain Pokémon to lose control, which is why farmers often raise them on separate plots of land.
 WildItemUncommon = MIRACLESEED
 WildItemRare = POISONBARB
+Generation = 0
 #-------------------------------
 # FROM EeVeeEe1999
 #-------------------------------
