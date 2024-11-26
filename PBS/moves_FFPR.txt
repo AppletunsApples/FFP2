@@ -3,8 +3,8 @@
 #-------------------------------
 # FROM Apples
 #-------------------------------
-[HYPERFROST]
-Name = Hyperfrost
+[CHILLYWINDS]
+Name = Chilly Winds
 Type = ICE
 Category = Status
 Accuracy = 85
@@ -12,7 +12,7 @@ TotalPP = 15
 Target = NearOther
 FunctionCode = FreezeTargetAlwaysHitsInHail
 Flags = CanProtect,CanMirrorMove
-Description = The user shoots the opponent with heavy frost that inflicts frostbite.
+Description = The user shoots the opponent with chilly winds that inflict frostbite.
 #-------------------------------
 [BURNNTURN]
 Name = Burn'N'Turn
@@ -52,7 +52,7 @@ Priority = 1
 FunctionCode = RaiseUserAttack1
 Flags = CanProtect,CanMirrorMove
 EffectChance = 100
-Description = The user strikes the opponent with a quick jab using its stingers. Usually goes before other moves.
+Description = The user strikes the opponent with a quick jab using its stingers. It is sure to go first.
 #-------------------------------
 [UPANDOUT]
 Name = Up and Out
@@ -76,15 +76,15 @@ Target = User
 FunctionCode = RaiseUserAtkDef1CureStatus
 Description = The user encourages itself to try harder, curing its own status conditions and boosting its Attack and Defense stats.
 #-------------------------------
-[NEWYOU]
-Name = New You
-Type = FIGHTING
+[SELFCARE]
+Name = Self Care
+Type = FAIRY
 Category = Status
 Accuracy = 0
 TotalPP = 20
 Target = User
 FunctionCode = RaiseUserAtk3
-Description = The user betters itself, drastically raising its Attack stat. 
+Description = The user cleans itself, drastically raising its Attack stat. 
 #-------------------------------
 [WARMFRONT]
 Name = Warm Front
@@ -95,19 +95,7 @@ TotalPP = 10
 Target = BothSides
 FunctionCode = StartSunWeatherSwitchOutUser
 Flags = CannotMetronome
-Description = The user summons sun, and then retreats to its Pokeball.
-#-------------------------------
-[ROCKDROP]
-Name = Rock Drop
-Type = ROCK
-Category = Physical
-Power = 40
-Accuracy = 100
-TotalPP = 15
-Target = NearOther
-FunctionCode = SplintersTargetGen8AddStealthRocksGen9
-Flags = Contact,CanProtect
-Description = The user accidentally drops a trap of levitating stones around the foe.
+Description = The user summons sun, and then retreats to its Poké Ball.
 #-------------------------------
 [TRIPLETHREAT]
 Name = Triple Threat
@@ -122,8 +110,8 @@ Flags = Contact,CanProtect,CanMirrorMove
 EffectChance = 30
 Description = The user attacks the foe with the power of poison, paralysis and sleep.
 #-------------------------------
-[FREEZESOAK]
-Name = Freeze Soak
+[FREEZINGWATERS]
+Name = Freezing Waters
 Type = WATER
 Category = Special
 Power = 80
@@ -133,11 +121,11 @@ Target = NearOther
 FunctionCode = FreezeTarget
 Flags = Contact,CanProtect,CanMirrorMove
 EffectChance = 30
-Description = The Pokemon soaks the opponent in cold water, which leaves a chance to start frostburn.
+Description = The Pokemon soaks the opponent in cold water, which leaves a chance to start frostbite.
 #-------------------------------
-[DRACOPRESS]
-Name = Dragon Press
-Type = DRAGON
+[METEORITESTRIKE]
+Name = Meteorite Strike
+Type = Rock
 Category = Special
 Power = 40
 Accuracy = 90
@@ -145,11 +133,11 @@ TotalPP = 10
 Target = NearOther
 FunctionCode = LowerUserSpecialAttack1
 Flags = CanProtect,CanMirrorMove
-Description = Comets are summoned down from Snivy or it's evolution's hands. The attack's recoil harshly reduces it's Sp. Atk stat, unless it has the ability Contrary.
+Description = Comets are summoned down from the user's hands. The attack's recoil harshly reduces it's Sp. Atk stat.
 #-------------------------------
 [CONTRARIANBLAST]
 Name = Contrarian Blast
-Type = GRASS
+Type = PSYCHIC
 Category = Special
 Power = 60
 Accuracy = 100
@@ -157,19 +145,7 @@ TotalPP = 1
 Target = NearOther
 FunctionCode = LowerUserDefSpDefSpd1
 Flags = CanProtect,CanMirrorMove
-Description = A giant blast is summoned from Snivy or it's evolution's hands. The attack's recoil reduces it's Defense, Special Defense, and Speed unless it has the ability Contrary.
-#-------------------------------
-[DREAMWORLD]
-Name = Dream World
-Type = PSYCHIC
-Category = Special
-Power = 40
-Accuracy = 100
-TotalPP = 5
-Target = NearOther
-FunctionCode = StartSlowerBattlersActFirst
-Flags = CanProtect,CanMirrorMove
-Description = The user starts a dream world where slower Pokémon move faster and faster Pokémon move slower.
+Description = A giant blast is summoned from the user's spirit. The attack's recoil reduces it's Defense, Special Defense, and Speed.
 #-------------------------------
 [RAINOUT]
 Name = Rain Out
@@ -180,10 +156,10 @@ TotalPP = 10
 Target = BothSides
 FunctionCode = StartRainWeatherSwitchOutUser
 Flags = CannotMetronome
-Description = The user summons rain, and then retreats to its Pokeball.
+Description = The user summons rain, and then retreats to its Poké Ball.
 #-------------------------------
-[SPEEDSNATCH]
-Name = Speed Snatch
+[SPEEDYSNATCH]
+Name = Speedy Snatch
 Type = ELECTRIC
 Category = Physical
 Power = 80
@@ -194,8 +170,8 @@ FunctionCode = UserTargetSwapBaseSpeed
 Flags = CanProtect,CanMirrorMove
 Description = The user steals the target's Speed stat, leaving the target with its former speed.
 #-------------------------------
-[STOREDSTAMINA]
-Name = Stored Stamina
+[SECRETSTAMINA]
+Name = Secret Stamina
 Type = FIGHTING
 Category = Physical
 Power = 150
@@ -217,19 +193,7 @@ Target = AllNearFoes
 FunctionCode = RemoveUserBindingAndEntryHazardsParalyzeTarget
 Flags = Contact,CanProtect,CanMirrorMove
 EffectChance = 100
-Description = Washes away certain traps and hazards. This also paralyzes opposing Pokémon.
-#-------------------------------
-[HIGHESTJUMPKICK]
-Name = Highest Jump Kick
-Type = FIGHTING
-Category = Physical
-Power = 200
-Accuracy = 50
-TotalPP = 20
-Target = NearOther
-FunctionCode = CrashDamageIfFailsUnusableInGravity
-Flags = Contact,CanProtect,CanMirrorMove
-Description = The target is attacked with a knee kick from a jump. If it misses, the user is hurt instead.
+Description = The user washes away certain traps and hazards. This also paralyzes opposing Pokémon.
 #-------------------------------
 [SPEEDDEMON]
 Name = Speed Demon
@@ -241,7 +205,7 @@ TotalPP = 10
 Target = NearOther
 FunctionCode = UseUserSpeedInsteadOfUserAttack
 Flags = Contact,CanProtect,CanMirrorMove,CannotMetronome
-Description = The user attacks by slamming its body into the target extremely quickly. Power increases the higher the user's Speed is.
+Description = The user attacks by slamming its body into the target extremely quickly. Deals more damage with a higher Speed stat.
 #-------------------------------
 [RESOLUTEJUSTICE]
 Name = Resolute Justice
@@ -264,18 +228,18 @@ TotalPP = 20
 Target = NearAlly
 FunctionCode = RaiseUserSpAtkSpDefSpd1
 Flags = Dance
-Description = The user and allies perform a dance. It boosts the user and it's allies' Sp. Atk, Sp. Def, and Speed stats.
+Description = The user and its allies perform a dance. It boosts their Sp. Atk, Sp. Def, and Speed stats.
 #-------------------------------
-[STRENGTHDANCE]
-Name = Strength Dance
-Type = FIGHTING
+[MENTALTEST]
+Name = Mental Test
+Type = PSYCHIC
 Category = Status
 Accuracy = 0
 TotalPP = 10
 Target = NearAlly
 FunctionCode = RaiseUserAtkDefSpd1
 Flags = Dance
-Description = The user performs an intense dance to usher in strength, raising its Attack, Defense, and Speed.
+Description = The user tests its emotional strength, raising its Attack, Defense, and Speed.
 #-------------------------------
 [FASTTACKLE]
 Name = Fast Tackle
@@ -287,13 +251,13 @@ TotalPP = 10
 Target = NearOther
 FunctionCode = UseUserSpeedInsteadOfUserAttack
 Flags = Contact,CanProtect,CanMirrorMove,CannotMetronome
-Description = The user attacks by tackling the opponent extremely quickly. Power increases the higher the user's Speed is.
+Description = The user attacks by tackling the opponent extremely quickly. Deals more damage with a higher Speed stat.
 #-------------------------------
 [METEORSHOWER]
 Name = Meteor Shower
 Type = ROCK
 Category = Physical
-Power = 25
+Power = 15
 Accuracy = 90
 TotalPP = 10
 Target = AllNearOthers
@@ -312,7 +276,7 @@ Target = NearOther
 FunctionCode = RaiseUserSpeed1
 Flags = CanProtect,CanMirrorMove
 EffectChance = 100
-Description = The user slashes with its wing-shaped tail, boosting its Speed stat.
+Description = The user slashes the target with its wing-shaped tail, boosting its Speed stat.
 #-------------------------------
 [ELECTROWIND]
 Name = Electro Wind
@@ -348,7 +312,7 @@ TotalPP = 30
 Target = NearOther
 FunctionCode = LowerUserSpecialAttack1
 Flags = CanProtect,CanMirrorMove
-Description = Fire is pressed down from the user's hands. The attack's recoil reduces it's Sp. Atk stat, unless it has the ability Contrary.
+Description = Fire is pressed down from the user's hands. The attack's recoil reduces it's Sp. Atk stat.
 #-------------------------------
 [BURNINGBULLET]
 Name = Burning Bullet
@@ -408,7 +372,7 @@ TotalPP = 10
 Target = NearOther
 FunctionCode = PowerHigherWithUserFasterThanTarget
 Flags = CanProtect,CanMirrorMove,Bomb
-Description = The user forcefully shoots itself at the target. It deals more damage the higher the speed of the user.
+Description = The user forcefully shoots itself at the target. Deals more damage with a higher Speed stat.
 #-------------------------------
 [ICESLAM]
 Name = Ice Slam
