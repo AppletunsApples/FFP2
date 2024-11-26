@@ -87,7 +87,7 @@ Generation = 0
 [PINCUSHOG]
 Name = Pincushog
 Types = NORMAL,STEEL
-BaseStats = 48,101,95,91,15,85
+BaseStats = 48,101,95,15,91,85
 GenderRatio = Female50Percent
 GrowthRate = Medium
 BaseExp = 152
