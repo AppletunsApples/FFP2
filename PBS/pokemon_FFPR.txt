@@ -84,9 +84,9 @@ Category = Ore
 Pokedex = 
 Generation = 0
 #-------------------------------
-[PINCUSHOG]
-Name = Pincushog
-Types = NORMAL,STEEL
+[PINCUSHIN]
+Name = Pincushin
+Types = NORMAL
 BaseStats = 48,101,95,15,91,85
 GenderRatio = Female50Percent
 GrowthRate = Medium
@@ -106,7 +106,7 @@ Weight = 1.0
 Color = Gray
 Shape = Multiped
 Category = Hedgehog
-Pokedex =
+Pokedex = Hidden beneath leaf piles in quiet forests, cries of distress can be heard far and wide by anyone who stands upon it. It's quills are prized as knitting needles for their durability
 Generation = 0
 #-------------------------------
 [SEEDYU]
