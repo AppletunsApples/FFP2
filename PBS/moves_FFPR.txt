@@ -66,8 +66,8 @@ FunctionCode = SwitchOutUserDamagingMove
 Flags = Contact,CanProtect,CanMirrorMove
 Description = After attacking the opponent from the skies, the user rushes back to switch places with a party Pokémon in waiting.
 #-------------------------------
-[REMOTIVATE]
-Name = Remotivate
+[SELFMOTIVATE]
+Name = Self-Motivate
 Type = FIGHTING
 Category = Status
 Accuracy = 0
