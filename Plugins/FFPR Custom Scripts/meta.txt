@@ -1,5 +1,6 @@
 ﻿Name       = Fakémon Festival Pack: Redux
-Version    = 0.0.1
+Version    = 0.0.2
 Essentials = 21.1
+Requires   = Generation 9 Pack,3.2.7
 Website    = https://eeveeexpo.com/resources/1534/
 Credits    = Eaglit, Adel's Brother, Conmh, Appletun's Apples, LimaPro, KaijiAtsui, Veryrealnoah, EeVeeEe1999, ayskyubi, JWNutz, Vendily, Kajiatsui

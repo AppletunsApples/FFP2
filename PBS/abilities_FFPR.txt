@@ -31,3 +31,7 @@ Description = Powers up Ice-type moves when at 1/3 HP or less.
 Name = Rough Waters
 Description = Creates a whirlpool on entry.
 #-------------------------------
+[UNFEATHERED]
+Name = Unfeathered
+Description = Attacks that make context to the Pokémon lower its Speed but raise both Attack and Special Attack.
+#-------------------------------
