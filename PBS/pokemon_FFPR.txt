@@ -34,8 +34,8 @@ Generation = 0
 #-------------------------------
 [DIOMMET]
 Name = Diommet
-Types = DARK,POISON
-BaseStats = 48,50,60,90,47,55
+Types = DARK,GRASS
+BaseStats = 48,50,60,55,90,47
 GenderRatio = Female50Percent
 GrowthRate = Parabolic
 BaseExp = 70
@@ -55,14 +55,14 @@ Color = Blue
 Shape = Head
 Habitat = Cave
 Category = Ore
-Pokedex = It absorbs nutrients from cave walls. The petals it wears are made of crystallized poison.
+Pokedex = 
 Generation = 0
 Evolutions = DIOMMORA,Level,35
 #-------------------------------
 [DIOMMORA]
 Name = Diommora
-Types = DARK,POISON
-BaseStats = 83,55,81,130,90,86
+Types = DARK,GRASS
+BaseStats = 83,55,81,86,130,90
 GenderRatio = Female50Percent
 GrowthRate = Parabolic
 BaseExp = 184
@@ -81,8 +81,86 @@ Color = Blue
 Shape = Head
 Habitat = Cave
 Category = Ore
-Pokedex = When this Pokémon detects danger, it will open up its crystalline petals and fire beams from its conical body.
+Pokedex = 
 Generation = 0
+#-------------------------------
+[PINCUSHOG]
+Name = Pincushog
+Types = NORMAL,STEEL
+BaseStats = 48,101,95,91,15,85
+GenderRatio = Female50Percent
+GrowthRate = Medium
+BaseExp = 152
+EVs = ATTACK,2
+CatchRate = 75
+Happiness = 50
+Abilities = IRONBARBS
+HiddenAbilities = SKILLLINK
+Moves = 1,PECK,1,RAPIDSPIN,5,MUDSLAP,10,DEFENSECURL,15,BULLETSEED,20,ROLLOUT,25,METALCLAW,30,REST,35,CURSE,40,SPIKES,45,POISONJAB,50,IRONHEAD,55,ACCUPRESSURE,60,DOUBLEEDGE
+TutorMoves = ASSURANCE,ATTRACT,BODYSLAM,CAPTIVATE,CONFIDE,DIG,DOUBLETEAM,DRILLRUN,ENDURE,FACADE,FRUSTRATION,GIGAIMPACT,GYROBALL,HIDDENPOWER,HYPERBEAM,IRONTAIL,LIQUIDATION,MIMIC,NATURALGIFT,PAYBACK,PINMISSILE,PLAYROUGH,POISONJAB,PROTECT,RAINDANCE,REST,RETURN,REVERSAL,ROUND,SECRETPOWER,SEEDBOMB,SELFDESTRUCT,SLEEPTALK,SNORE,SPIKES,SUBSTITUTE,SWAGGER,THIEF,THROATCHOP,TOXIC,TOXICSPIKES,WILDCHARGE
+EggMoves = MEMENTO,SUCKERPUNCH
+EggGroups = Field,Amorphous
+HatchSteps = 5120
+Height = 0.3
+Weight = 1.0
+Color = Gray
+Shape = Multiped
+Category = Hedgehog
+Pokedex =
+Generation = 0
+#-------------------------------
+[SEEDYU]
+Name = Seedyu
+Types = GRASS
+BaseStats = 30,45,55,85,70,55
+GenderRatio = Genderless
+GrowthRate = Slow
+BaseExp = 68
+EVs = SPEED,1
+CatchRate = 225
+Happiness = 50
+Abilities = ILLUMINATE,NATURALCURE
+HiddenAbilities = CHLOROPHYLL
+Moves = 1,STUNSPORE,1,POISONPOWDER,1,SLEEPPOWDER,4,POISONGAS,6,ABSORB,9,ACID,14,VENOSHOCK,17,LEECHSEED,27,POWERWHIP,34,GIGADRAIN,38,RECOVER
+TutorMoves = AFTERYOU,CHARM,DAZZLINGGLEAM,FLASH,FLORALSWITCH,HELPINGHAND,HIDDENPOWER,ENERGYBALL,GIGADRAIN,GRASSKNOT,LIGHTSCREEN,MAGICALLEAF,REFLECT,TRAILBLAZE,SOLARBEAM,SOLARBLADE,SLUDGEBOMB,SUNNYDAY,TOXIC,TOXICSPIKES,VENOSHOCK
+EggMoves = AFTERYOU,CHARM,CURSE,GASTROACID,HELPINGHAND,LEECHSEED,NATUREPOWER
+EggGroups = Grass,Fairy
+HatchSteps = 5120
+Height = 0.8
+Weight = 30.8
+Color = Purple
+Shape = HeadBase
+Habitat = Grassland
+Category = Single Bloom
+Pokedex = Seedyu's appearance is often considered a bad omen among the superstitious that an area is about to become infested with hostile Pokémon.
+WildItemUncommon = MIRACLESEED
+Evolution = SEEDMIE,Item,LEAFSTONE
+#-------------------------------
+[SEEDMIE]
+Name = Seedmie
+Types = GRASS,POISON
+BaseStats = 60,75,85,115,100,85
+GenderRatio = Genderless
+GrowthRate = Slow
+BaseExp = 182
+EVs = SPEED,1
+CatchRate = 225
+Happiness = 50
+Abilities = ILLUMINATE,NATURALCURE
+HiddenAbilities = CHLOROPHYLL
+Moves = 0,DAZZLINGGLEAM,1,SLEEPPOWDER,1,STUNSPORE,1,POISONPOWDER,5,POISONGAS,11,VENOSHOCK,16,LEECHSEED,25,ACID,33,POWERWHIP,37,GIGADRAIN,42,RECOVER,46,TOXICSPIKES
+TutorMoves = AFTERYOU,CAPTIVATE,CHARM,CONFIDE,DAZZLINGGLEAM,FLASH,FLORALSWITCH,HELPINGHAND,HIDDENPOWER,ENERGYBALL,GASTROACID,GIGADRAIN,GRASSKNOT,GUNKSHOT,KNOCKOFF,LIGHTSCREEN,MAGICALLEAF,POISONJAB,REFLECT,TRAILBLAZE,SOLARBEAM,SOLARBLADE,SLUDGEBOMB,SLUDGEWAVE,SUNNYDAY,TOXICSPIKES,TOXIC,TRICK,VENOSHOCK
+EggGroups = Undiscovered
+HatchSteps = 1
+Height = 1.1
+Weight = 60.0
+Color = Blue
+Shape = HeadBase
+Habitat = Grassland
+Category = Multi-Bloom
+Pokedex = Seedmie's flowers cause certain Pokémon to lose control, which is why farmers often raise them on separate plots of land.
+WildItemUncommon = MIRACLESEED
+WildItemRare = POISONBARB
 #-------------------------------
 # FROM EeVeeEe1999
 #-------------------------------
@@ -191,87 +269,6 @@ Habitat = Sea
 Category = Sea Enemy
 Pokedex = If another Pokemon intrudes on a reef claimed by a Haraspoke, it will bully the other Pokemon until it leaves.
 Generation = 0
-#-------------------------------
-# FROM shayminhedgehog
-#-------------------------------
-[PINCUSHOG]
-Name = Pincushog
-Types = NORMAL,STEEL
-BaseStats = 48,101,95,91,15,85
-GenderRatio = Female50Percent
-GrowthRate = Medium
-BaseExp = 152
-EVs = ATTACK,2
-CatchRate = 75
-Happiness = 50
-Abilities = IRONBARBS
-HiddenAbilities = SKILLLINK
-Moves = 1,PECK,1,RAPIDSPIN,5,MUDSLAP,10,DEFENSECURL,15,BULLETSEED,20,ROLLOUT,25,METALCLAW,30,REST,35,CURSE,40,SPIKES,45,POISONJAB,50,IRONHEAD,55,ACCUPRESSURE,60,DOUBLEEDGE
-TutorMoves = ASSURANCE,ATTRACT,BODYSLAM,CAPTIVATE,CONFIDE,DIG,DOUBLETEAM,DRILLRUN,ENDURE,FACADE,FRUSTRATION,GIGAIMPACT,GYROBALL,HIDDENPOWER,HYPERBEAM,IRONTAIL,LIQUIDATION,MIMIC,NATURALGIFT,PAYBACK,PINMISSILE,PLAYROUGH,POISONJAB,PROTECT,RAINDANCE,REST,RETURN,REVERSAL,ROUND,SECRETPOWER,SEEDBOMB,SELFDESTRUCT,SLEEPTALK,SNORE,SPIKES,SUBSTITUTE,SWAGGER,THIEF,THROATCHOP,TOXIC,TOXICSPIKES,WILDCHARGE
-EggMoves = MEMENTO,SUCKERPUNCH
-EggGroups = Field,Amorphous
-HatchSteps = 5120
-Height = 0.3
-Weight = 1.0
-Color = Gray
-Shape = Multiped
-Category = Hedgehog
-Pokedex = [A spiky boi.]
-Generation = 0
-#-------------------------------
-[SEEDYU]
-Name = Seedyu
-Types = GRASS
-BaseStats = 30,45,55,85,70,55
-GenderRatio = Genderless
-GrowthRate = Slow
-BaseExp = 68
-EVs = SPEED,1
-CatchRate = 225
-Happiness = 50
-Abilities = ILLUMINATE,NATURALCURE
-HiddenAbilities = CHLOROPHYLL
-Moves = 1,STUNSPORE,1,POISONPOWDER,1,SLEEPPOWDER,4,POISONGAS,6,ABSORB,9,ACID,14,VENOSHOCK,17,LEECHSEED,27,POWERWHIP,34,GIGADRAIN,38,RECOVER
-TutorMoves = AFTERYOU,CHARM,DAZZLINGGLEAM,FLASH,FLORALSWITCH,HELPINGHAND,HIDDENPOWER,ENERGYBALL,GIGADRAIN,GRASSKNOT,LIGHTSCREEN,MAGICALLEAF,REFLECT,TRAILBLAZE,SOLARBEAM,SOLARBLADE,SLUDGEBOMB,SUNNYDAY,TOXIC,TOXICSPIKES,VENOSHOCK
-EggMoves = AFTERYOU,CHARM,CURSE,GASTROACID,HELPINGHAND,LEECHSEED,NATUREPOWER
-EggGroups = Grass,Fairy
-HatchSteps = 5120
-Height = 0.8
-Weight = 30.8
-Color = Purple
-Shape = HeadBase
-Habitat = Grassland
-Category = Single Bloom
-Pokedex = Seedyu's appearance is often considered a bad omen among the superstitious that an area is about to become infested with hostile Pokémon.
-WildItemUncommon = MIRACLESEED
-Evolution = SEEDMIE,Item,LEAFSTONE
-#-------------------------------
-[SEEDMIE]
-Name = Seedmie
-Types = GRASS,POISON
-BaseStats = 60,75,85,115,100,85
-GenderRatio = Genderless
-GrowthRate = Slow
-BaseExp = 182
-EVs = SPEED,1
-CatchRate = 225
-Happiness = 50
-Abilities = ILLUMINATE,NATURALCURE
-HiddenAbilities = CHLOROPHYLL
-Moves = 0,DAZZLINGGLEAM,1,SLEEPPOWDER,1,STUNSPORE,1,POISONPOWDER,5,POISONGAS,11,VENOSHOCK,16,LEECHSEED,25,ACID,33,POWERWHIP,37,GIGADRAIN,42,RECOVER,46,TOXICSPIKES
-TutorMoves = AFTERYOU,CAPTIVATE,CHARM,CONFIDE,DAZZLINGGLEAM,FLASH,FLORALSWITCH,HELPINGHAND,HIDDENPOWER,ENERGYBALL,GASTROACID,GIGADRAIN,GRASSKNOT,GUNKSHOT,KNOCKOFF,LIGHTSCREEN,MAGICALLEAF,POISONJAB,REFLECT,TRAILBLAZE,SOLARBEAM,SOLARBLADE,SLUDGEBOMB,SLUDGEWAVE,SUNNYDAY,TOXICSPIKES,TOXIC,TRICK,VENOSHOCK
-EggGroups = Undiscovered
-HatchSteps = 1
-Height = 1.1
-Weight = 60.0
-Color = Blue
-Shape = HeadBase
-Habitat = Grassland
-Category = Multi-Bloom
-Pokedex = Seedmie's flowers cause certain Pokémon to lose control, which is why farmers often raise them on separate plots of land.
-WildItemUncommon = MIRACLESEED
-WildItemRare = POISONBARB
-#-------------------------------
 #-------------------------------
 # Custom Crossgen Evolutions
 #-------------------------------
