@@ -1,3 +1,6 @@
+#-------------------------------
+# FROM Eaglit
+#-------------------------------
 Battle::AbilityEffects::OnBeingHit.add(:CONTACTFREEZE,
   proc { |ability, user, target, move, battle|
     next if !move.pbContactMove?(user)
@@ -41,15 +44,20 @@ Battle::AbilityEffects::DamageCalcFromUser.add(:CRYSTALIZE,
   }
 )
 
-Battle::AbilityEffects::OnBeingHit.add(:UNFEATHERED,
+#-------------------------------
+# FROM Appletun's Apples
+#-------------------------------
+Battle::AbilityEffects::OnBeingHit.add(:WEAKARMOR,
   proc { |ability, user, target, move, battle|
     next if !move.physicalMove?
-    next if !target.pbCanLowerStatStage?(:ATTACK, target) && !target.pbCanLowerStatStage?(:SPECIAL_ATTACK, target) &&
+    next if !target.pbCanLowerStatStage?(:DEFENSE, target) &&
             !target.pbCanRaiseStatStage?(:SPEED, target)
     battle.pbShowAbilitySplash(target)
-    target.pbLowerStatStageByAbility(:SPEED, 2, target, false)
-    target.pbRaiseStatStageByAbility(:ATTACK, 1, target, false)
-    target.pbRaiseStatStageByAbility(:SPECIAL_ATTACK, 1, target, false) 
+    target.pbLowerStatStageByAbility(:DEFENSE, 1, target, false)
+    target.pbRaiseStatStageByAbility(:SPEED,
+       (Settings::MECHANICS_GENERATION >= 7) ? 2 : 1, target, false)
     battle.pbHideAbilitySplash(target)
   }
 )
+
+Battle::AbilityEffects::OnBeingHit.copy(:WEAKARMOR, :PLUCKY)
