@@ -106,7 +106,7 @@ Weight = 1.0
 Color = Gray
 Shape = Multiped
 Category = Hedgehog
-Pokedex = Hidden beneath leaf piles in quiet forests, cries of distress can be heard far and wide by anyone who stands upon it. It's quills are prized as knitting needles for their durability.
+Pokedex = Hidden beneath leaf piles in quiet forests, cries of distress can be heard far and wide by anyone who stands upon it. Its quills are prized as knitting needles for their durability.
 Generation = 0
 #-------------------------------
 [SEEDYU]
