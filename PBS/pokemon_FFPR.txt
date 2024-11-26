@@ -219,6 +219,60 @@ Category = Hedgehog
 Pokedex = [A spiky boi.]
 Generation = 0
 #-------------------------------
+[SEEDYU]
+Name = Seedyu
+Types = GRASS
+BaseStats = 30,45,55,85,70,55
+GenderRatio = Genderless
+GrowthRate = Slow
+BaseExp = 68
+EVs = SPEED,1
+CatchRate = 225
+Happiness = 50
+Abilities = ILLUMINATE,NATURALCURE
+HiddenAbilities = CHLOROPHYLL
+Moves = 1,STUNSPORE,1,POISONPOWDER,1,SLEEPPOWDER,4,POISONGAS,6,ABSORB,9,ACID,14,VENOSHOCK,17,LEECHSEED,27,POWERWHIP,34,GIGADRAIN,38,RECOVER
+TutorMoves = AFTERYOU,CHARM,DAZZLINGGLEAM,FLASH,FLORALSWITCH,HELPINGHAND,HIDDENPOWER,ENERGYBALL,GIGADRAIN,GRASSKNOT,LIGHTSCREEN,MAGICALLEAF,REFLECT,TRAILBLAZE,SOLARBEAM,SOLARBLADE,SLUDGEBOMB,SUNNYDAY,TOXIC,TOXICSPIKES,VENOSHOCK
+EggMoves = AFTERYOU,CHARM,CURSE,GASTROACID,HELPINGHAND,LEECHSEED,NATUREPOWER
+EggGroups = Grass,Fairy
+HatchSteps = 5120
+Height = 0.8
+Weight = 30.8
+Color = Purple
+Shape = HeadBase
+Habitat = Grassland
+Category = Single Bloom
+Pokedex = Seedyu's appearance is often considered a bad omen among the superstitious that an area is about to become infested with hostile Pokémon.
+WildItemUncommon = MIRACLESEED
+Evolution = SEEDMIE,Item,LEAFSTONE
+#-------------------------------
+[SEEDMIE]
+Name = Seedmie
+Types = GRASS,POISON
+BaseStats = 60,75,85,115,100,85
+GenderRatio = Genderless
+GrowthRate = Slow
+BaseExp = 182
+EVs = SPEED,1
+CatchRate = 225
+Happiness = 50
+Abilities = ILLUMINATE,NATURALCURE
+HiddenAbilities = CHLOROPHYLL
+Moves = 0,DAZZLINGGLEAM,1,SLEEPPOWDER,1,STUNSPORE,1,POISONPOWDER,5,POISONGAS,11,VENOSHOCK,16,LEECHSEED,25,ACID,33,POWERWHIP,37,GIGADRAIN,42,RECOVER,46,TOXICSPIKES
+TutorMoves = AFTERYOU,CAPTIVATE,CHARM,CONFIDE,DAZZLINGGLEAM,FLASH,FLORALSWITCH,HELPINGHAND,HIDDENPOWER,ENERGYBALL,GASTROACID,GIGADRAIN,GRASSKNOT,GUNKSHOT,KNOCKOFF,LIGHTSCREEN,MAGICALLEAF,POISONJAB,REFLECT,TRAILBLAZE,SOLARBEAM,SOLARBLADE,SLUDGEBOMB,SLUDGEWAVE,SUNNYDAY,TOXICSPIKES,TOXIC,TRICK,VENOSHOCK
+EggGroups = Undiscovered
+HatchSteps = 1
+Height = 1.1
+Weight = 60.0
+Color = Blue
+Shape = HeadBase
+Habitat = Grassland
+Category = Multi-Bloom
+Pokedex = Seedmie's flowers cause certain Pokémon to lose control, which is why farmers often raise them on separate plots of land.
+WildItemUncommon = MIRACLESEED
+WildItemRare = POISONBARB
+#-------------------------------
+#-------------------------------
 # Custom Crossgen Evolutions
 #-------------------------------
 #-------------------------------
