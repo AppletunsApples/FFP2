@@ -40,3 +40,18 @@ Battle::AbilityEffects::DamageCalcFromUser.add(:CRYSTALIZE,
     end
   }
 )
+
+Battle::AbilityEffects::OnBeingHit.add(:UNFEATHERED,
+  proc { |ability, user, target, move, battle|
+    next if !move.physicalMove?
+    next if !target.pbCanLowerStatStage?(:ATTACK, target) && !target.pbCanLowerStatStage?(:SPECIAL_ATTACK, target) &&
+            !target.pbCanRaiseStatStage?(:SPEED, target)
+    battle.pbShowAbilitySplash(target)
+    target.pbLowerStatStageByAbility(:SPEED, 2, target, false)
+    target.pbRaiseStatStageByAbility(:ATTACK,
+       (Settings::MECHANICS_GENERATION >= 7) ? 1, target, false)
+    target.pbRaiseStatStageByAbility(:SPECIAL_ATTACK,
+       (Settings::MECHANICS_GENERATION >= 7) ? 1, target, false) 
+    battle.pbHideAbilitySplash(target)
+  }
+)
