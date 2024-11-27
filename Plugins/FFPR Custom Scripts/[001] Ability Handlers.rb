@@ -61,3 +61,11 @@ Battle::AbilityEffects::OnBeingHit.add(:WEAKARMOR,
 )
 
 Battle::AbilityEffects::OnBeingHit.copy(:WEAKARMOR, :PLUCKY)
+
+Battle::AbilityEffects::DamageCalcFromUser.add(:SNOWFORCE,
+  proc { |ability, user, target, move, mults, power, type|
+    if user.effectiveWeather == :Snow && type == :ICE
+      mults[:power_multiplier] *= 1.3
+    end
+  }
+)

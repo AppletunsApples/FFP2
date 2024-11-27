@@ -35,3 +35,7 @@ Description = Creates a whirlpool on entry.
 Name = PLUCKY
 Description = Attacks that make context to the Pokémon harshy lower its Speed but raise its Attack and Special Attack.
 #-------------------------------
+[SNOWFORCE]
+Name = SNOWFORCE
+Description = Boosts certain moves' power in a snowstorm.
+#-------------------------------
